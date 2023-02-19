@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
     </Head>
     <section className={utilstyles.headingMd}>
       <p>
-        データサイエンティストをやってます。🐥
+        データサイエンティストをやってます。Next.jsもやっています。🐥
       </p>
     </section>
 

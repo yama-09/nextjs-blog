@@ -16,14 +16,14 @@ function Layout({ children , home }) {
         <header className={styles.header}>
             {home ? (
                 <>
-                    <img src="/images/profile.png" 
-                    className={`${styles.headerHomeImage} ${utilstyles.borderCircle}`}
+                    <img src="/images/piyo.jpg" 
+                    className={`${utilstyles.borderCircle}`}
                      />
                     <h1 className={utilstyles.heading2Xl}>{name}</h1>
                 </>
             ) : (
                 <>
-                    <img src="/images/profile.png" 
+                    <img src="/images/piyo.jpg" 
                     className={`${utilstyles.borderCircle}`}
                      />
                     <h1 className={utilstyles.heading2Xl}>{name}</h1>

@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 import Layout from '/components/Layout'
 import utilstyles from "../styles/utils.module.css"
 import Link from 'next/link'
-import { getPostsData } from '@/lib/posts'
+import { getPostsData } from '@/lib/Posts'
 import { siteTitle } from '@/components/Layout'
 
 //SSGの場合
@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
     </Head>
     <section className={utilstyles.headingMd}>
       <p>
-        データサイエンティストをやってます。🐥
+        データサイエンティストをやってます。Next.jsもやっています。🐥
       </p>
     </section>
 

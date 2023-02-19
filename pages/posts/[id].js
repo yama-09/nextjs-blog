@@ -1,7 +1,7 @@
 //[]は、URLを任意の文字列に置換できる
 
 import Layout from "@/components/Layout";
-import { getAllPostIds, getPostData } from "@/lib/posts";
+import { getAllPostIds, getPostData } from "@/lib/Posts";
 import utilstyles from "@/styles/utils.module.css"
 import Head from "next/head";
 
